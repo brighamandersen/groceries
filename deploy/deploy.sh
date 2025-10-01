@@ -10,7 +10,7 @@ npm run build
 
 # nginx
 
-sudo ln -sf /home/brig/code/groceries/deploy/nginx.conf /etc/nginx/conf.d/groceries.conf
+sudo cp /home/brig/code/groceries/deploy/nginx.conf /etc/nginx/conf.d/groceries.conf
 
 sudo nginx -t
 sudo systemctl reload nginx
